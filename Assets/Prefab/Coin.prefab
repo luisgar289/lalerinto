@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4349118889854395380}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.5, y: 2.15, z: -6}
+  m_LocalPosition: {x: 0, y: -1.68, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -99,10 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   valor: 10
   particulas: {fileID: 8827131787431735344, guid: b3db76f4025ed1105b2c3c1e3c5f2a4e, type: 3}
-  startValue: 0
   velocidadRotacion: 50
-  contadorText: {fileID: 0}
-  contadorActual: 0
 --- !u!135 &1538100625414511137
 SphereCollider:
   m_ObjectHideFlags: 0

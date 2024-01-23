@@ -8,7 +8,6 @@ public class GameOver : MonoBehaviour
     
     public void GameOverManager()
     {
-        
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Nivel1");
     }
 }

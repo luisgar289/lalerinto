@@ -17,10 +17,9 @@ public class Coin : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Jugador"))
         {
-            // Instanciar partículas y destruir la moneda
             Instantiate(particulas, transform.position, Quaternion.identity);
             Destroy(gameObject);
-
+            TotalMonedas.instance.RestarMonedas(1);
             Score.instance.AgregarPuntos(valor);
         }
     }
